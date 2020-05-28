@@ -71,8 +71,7 @@ The project SOAPui is located in `src/test/resources/REST-API-HappyBirtday-soapu
 
 ## For more information
 
-For more information .
-
+For more information
 [1]: https://www.tutorialspoint.com/spring_boot/index.htm
 [2]: https://www.baeldung.com/java-date-difference
 [3]: https://www.tutorialspoint.com/spring_boot/spring_boot_rest_controller_unit_test.htm
@@ -82,17 +81,22 @@ For more information .
 
 Construya un servicio REST que reciba como parámetro de entrada Nombre completo
 (nombres y apellidos) y una fecha (DD-MM-YYYY) y retorne:
--Primer nombre y primer apellido
--Edad
+
+-Primer nombre y primer apellido.
+-Edad.
 -Cuántos días faltan para su cumpleaños o en caso de que sea su cumpleaños
 felicitarlo y ocupar la siguiente API “ https://www.poemist.com/api/v1/randompoems ” para
-dedicarle un poema random de la lista que responde
+dedicarle un poema random de la lista que responde.
+
 Este servicio debe ser consumido por un Frontend, que debe mostrar de forma persistente
 los datos de cada una de las personas ingresadas en el siguiente formato:
--Nombre
--Apellido
--Fecha (DD/MM/YY)
--Edad
--Cuantos días para cumplir o Felicitación y poema según sea el caso
+
+-Nombre.
+-Apellido.
+-Fecha (DD/MM/YY).
+-Edad.
+-Cuantos días para cumplir o Felicitación y poema según sea el caso.
+
 El código debe ser disponibilizado en un repositorio git cuyo README tenga las
-instrucciones para deployar el proyecto
+instrucciones para deployar el proyecto.
+
