@@ -30,7 +30,7 @@ formato.patronFecha=dd-MM-yyyy
 url.urlpoemist=https://www.poemist.com/api/v1/randompoems
 ```
 
-The configuration is located in `src/main/resources/applsication.properties` .
+The configuration is located in `src/main/resources/application.properties` .
 
 ### Build an executable JUNIT testing
 
@@ -62,9 +62,12 @@ java -jar target/*.jar
 
 *Instead of `mvn` you can also use the maven-wrapper `./mvnw` to ensure you have everything necessary to run the Maven build.*
 
-### Test your new HappyBirthDay app
+### Test your new HappyBirthDay app web
 
 1. open `http://localhost:8080/index.html` 
+
+### Test your HappyBirthday with SOAPui
+The project SOAPui is located in `src/test/resources/REST-API-HappyBirtday-soapui-project.xml` .
 
 ## For more information
 
